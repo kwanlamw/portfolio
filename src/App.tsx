@@ -38,9 +38,8 @@ function App() {
             Kwan Lam Wong
           </h1>
           <p className="text-gray-400 text-xl max-w-2xl leading-relaxed mb-8">
-            5 years of commercial experience delivering scalable web
-            applications across <span className="text-white">HealthTech</span>{" "}
-            and <span className="text-white">Fintech</span> sectors. Based in{" "}
+            5+ years of experience delivering scalable web
+            applications across various sectors. Based in{" "}
             <span className="text-white">Yorkshire, UK</span>.
           </p>
           <div className="flex gap-4">
@@ -269,7 +268,7 @@ function App() {
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-4">Get In Touch</h2>
           <p className="text-gray-400 mb-8 max-w-md mx-auto">
-            Full right to work in the UK. Available with 1 week's notice.
+            Full right to work in the UK.
           </p>
           <div className="flex justify-center gap-6">
             <a
@@ -292,7 +291,7 @@ function App() {
 
       {/* FOOTER */}
       <footer className="py-8 px-6 border-t border-gray-800 text-center text-gray-600 text-sm">
-        Kwan Lam Wong · Yorkshire, UK · Full Right to Work
+      Kwan Lam WONG · Full Right to Work · United Kingdom 🇬🇧 · Hong Kong 🇭🇰
       </footer>
     </div>
   );
