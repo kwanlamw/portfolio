@@ -8,8 +8,9 @@ const Hero = () => {
         </p>
         <h1 className="text-5xl font-bold mb-6 leading-tight">Kwan Lam WONG</h1>
         <p className="text-gray-400 text-xl max-w-2xl leading-relaxed mb-8">
-          5+ years of experience delivering scalable web applications across various sectors. Based
-          in <span className="text-white">Yorkshire, UK</span>.
+          Versatile full stack developer with 5+ years of commercial experience and a prior
+          background in digital marketing — bringing both technical delivery and commercial
+          awareness to every project. Based in <span className="text-white">Yorkshire, UK</span>.
         </p>
         <div className="flex gap-4">
           <a
