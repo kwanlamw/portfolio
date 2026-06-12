@@ -6,8 +6,8 @@ function App() {
       {/* NAV */}
       <nav className="fixed top-0 w-full bg-gray-950/80 backdrop-blur-sm border-b border-gray-800 z-50">
         <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-          <span className="font-semibold tracking-wide">KLW</span>
-          <div className="flex gap-6 text-sm text-gray-400">
+
+          <div className="flex gap-6 text-sm text-gray-400 ml-auto">
             <a href="#about" className="hover:text-white transition-colors">
               About
             </a>
@@ -23,9 +23,6 @@ function App() {
             <a href="#projects" className="hover:text-white transition-colors">
               Projects
             </a>
-            <a href="#contact" className="hover:text-white transition-colors">
-              Contact
-            </a>
           </div>
         </div>
       </nav>
@@ -37,7 +34,7 @@ function App() {
             Full Stack Developer
           </p>
           <h1 className="text-5xl font-bold mb-6 leading-tight">
-            Kwan Lam Wong
+            Kwan Lam WONG
           </h1>
           <p className="text-gray-400 text-xl max-w-2xl leading-relaxed mb-8">
             5+ years of experience delivering scalable web
@@ -45,12 +42,6 @@ function App() {
             <span className="text-white">Yorkshire, UK</span>.
           </p>
           <div className="flex gap-4">
-            <a
-              href="#contact"
-              className="px-6 py-3 bg-orange-500 hover:bg-orange-400 text-gray-950 font-semibold rounded-lg transition-colors"
-            >
-              Get in touch
-            </a>
             <a
               href="#experience"
               className="px-6 py-3 border border-gray-700 hover:border-gray-500 text-gray-300 rounded-lg transition-colors"
@@ -264,29 +255,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* CONTACT
-      <section id="contact" className="py-20 px-6 border-t border-gray-800">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">Get In Touch</h2>
-          <div className="flex justify-center gap-6">
-            <a
-              href="mailto:kwanlamw@gmail.com"
-              className="p-4 text-red-500 hover:bg-red-500 hover:text-white border border-transparent hover:border-red-500 rounded-lg transition-colors"
-              >
-              <FaEnvelope size={20} />
-            </a>
-            <a
-              href="https://linkedin.com/in/kwanlamw"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-4 text-blue-700 hover:bg-blue-700 hover:text-white border border-transparent hover:border-blue-700 rounded-lg transition-colors"
-              >
-              <FaLinkedin size={20} />
-            </a>
-          </div>
-        </div>
-      </section> */}
 
       {/* FOOTER */}
       <footer className="py-8 px-6 border-t border-gray-800">
